@@ -1,0 +1,44 @@
+.main-content {
+  width: 360px;
+  margin: auto;
+}
+
+.main-balance {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-balance button {
+  width: 94px;
+  color: white;
+  height: 33px;
+  align-items: center;
+  background-color: black;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.main-expense {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 92%;
+  margin: auto;
+}
+
+.main-expense-class {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid lightgrey;
+  padding: 8px;
+  width: 42.5%;
+  border-radius: 3px;
+}
+.main-expense-class span {
+  display: block;
+  padding: 10px;
+  border-radius: 3px;
+  text-align: left;
+}
